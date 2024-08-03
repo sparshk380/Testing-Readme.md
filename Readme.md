@@ -3,7 +3,7 @@
 
 
 ### Pre-requisites:
- - Jenkins Running on Kubernetes Cluster 
+ - Jenkins Master running on Kubernetes Cluster 
 
 ## Steps: 
 
@@ -21,7 +21,10 @@
 
 ![Screenshot](<Jenkins-1.jpg>)
 
+
 - Click on Add a new cloud and select Kubernetes.
+
+![Screenshot](<Jenkins-2.jpg>)
 
 2. Configure Kubernetes Cloud Details.
 
@@ -32,7 +35,6 @@
     * Click on Add next to Credentials and select Kubernetes Service Account.
     * Use the default service account or create a dedicated one with appropriate permissions.
 
-![Screenshot](<Jenkins-2.jpg>)
 
 ![Screenshot](<3.jpg>)
  
